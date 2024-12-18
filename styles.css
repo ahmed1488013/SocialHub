@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Feed Container */
+.feed-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Post Styles */
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 24px;
+    color: #3F51B5; /* Indigo */
+    margin-bottom: 10px;
+}
+
+.post-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Like and Comment Section */
+.like-comment-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.like-button {
+    background-color: #FF4081; /* Pink */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.like-button:hover {
+    background-color: #F50057;
+}
+
+.like-count {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Comment Section */
+.comment-section {
+    margin-top: 15px;
+}
+
+.comment {
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post {
+        padding: 15px;
+    }
+
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-text {
+        font-size: 14px;
+    }
+}
